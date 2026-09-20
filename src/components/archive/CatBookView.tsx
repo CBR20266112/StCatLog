@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useCatContext } from '../../context/CatContext';
-import type { Cat, CatColorPattern } from '../../types/cat';
+import type { Cat } from '../../types/cat';
 import { CatDetailModal } from './CatDetailModal';
 import { Search, Tag, Eye, ShieldCheck, MapPin, Sparkles } from 'lucide-react';
 

@@ -24,7 +24,7 @@ export const PhotoReportModal: React.FC = () => {
   const [newCatPattern, setNewCatPattern] = useState<CatColorPattern>('치즈 태비');
   const [newCatTnr, setNewCatTnr] = useState<boolean>(false);
   const [locationName, setLocationName] = useState<string>('순천시 석현동 근처 (순천대 후문)');
-  const [notes, setNotes] = useState<string>('');
+  const [notes] = useState<string>('');
 
   if (!isReportModalOpen) return null;
 
