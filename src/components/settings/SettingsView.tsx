@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useCatContext } from '../../context/CatContext';
 import type { SafeRadius } from '../../types/cat';
-import { Shield, Building2, HelpCircle, Code, ChevronRight, X, PhoneCall, CheckCircle } from 'lucide-react';
+import { Shield, Building2, Code, ChevronRight, X, PhoneCall } from 'lucide-react';
 
 export const SettingsView: React.FC = () => {
   const { safeRadius, setSafeRadius } = useCatContext();

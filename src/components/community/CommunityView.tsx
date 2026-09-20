@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useCatContext } from '../../context/CatContext';
 import type { CommunityPost } from '../../types/cat';
-import { MessageSquare, Heart, MapPin, Plus, Send, X, Image as ImageIcon, Sparkles, UserCheck } from 'lucide-react';
+import { MessageSquare, Heart, MapPin, Plus, Send, X, Image as ImageIcon, Sparkles } from 'lucide-react';
 
 export const CommunityView: React.FC = () => {
   const { posts, addPost, likePost, addCommentToPost } = useCatContext();
